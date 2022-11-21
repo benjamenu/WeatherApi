@@ -35,7 +35,7 @@ public class GetWeatherData {
      */
     public double getCurrentTemperature() throws IOException, InterruptedException, URISyntaxException {
         HttpRequest getRequest = HttpRequest.newBuilder()
-                .uri(new URI("https://api.openweathermap.org/data/2.5/weather?lat=35.3837337&lon=-81.3753087&units=imperial&appid=f2fe988eb16f02f9596f6c98fe963ac2"))
+                .uri(new URI("https://api.openweathermap.org/data/2.5/weather?lat=35.3837337&lon=-81.3753087&units=imperial&appid=API_KEY"))
                 .GET()
                 .build();
 
