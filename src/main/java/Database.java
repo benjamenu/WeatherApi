@@ -8,7 +8,7 @@ import java.sql.*;
 public class Database {
     private final Connection connection;
     public Database() throws SQLException {
-        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/weather", "root", "biff4015");
+        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/weather", "root", "password");
         System.out.println("Database Connected");
     }
 
